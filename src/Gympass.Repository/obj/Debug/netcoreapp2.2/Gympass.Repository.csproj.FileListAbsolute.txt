@@ -7,11 +7,3 @@ C:\Gympass\src\Gympass.Repository\obj\Debug\netcoreapp2.2\Gympass.Repository.Ass
 C:\Gympass\src\Gympass.Repository\obj\Debug\netcoreapp2.2\Gympass.Repository.dll
 C:\Gympass\src\Gympass.Repository\obj\Debug\netcoreapp2.2\Gympass.Repository.pdb
 C:\Gympass\src\Gympass.Repository\obj\Debug\netcoreapp2.2\Gympass.Repository.csprojAssemblyReference.cache
-C:\Projetos\Gympass-test\src\Gympass.Repository\bin\Debug\netcoreapp2.2\Gympass.Repository.deps.json
-C:\Projetos\Gympass-test\src\Gympass.Repository\bin\Debug\netcoreapp2.2\Gympass.Repository.dll
-C:\Projetos\Gympass-test\src\Gympass.Repository\bin\Debug\netcoreapp2.2\Gympass.Repository.pdb
-C:\Projetos\Gympass-test\src\Gympass.Repository\obj\Debug\netcoreapp2.2\Gympass.Repository.csproj.CoreCompileInputs.cache
-C:\Projetos\Gympass-test\src\Gympass.Repository\obj\Debug\netcoreapp2.2\Gympass.Repository.AssemblyInfoInputs.cache
-C:\Projetos\Gympass-test\src\Gympass.Repository\obj\Debug\netcoreapp2.2\Gympass.Repository.AssemblyInfo.cs
-C:\Projetos\Gympass-test\src\Gympass.Repository\obj\Debug\netcoreapp2.2\Gympass.Repository.dll
-C:\Projetos\Gympass-test\src\Gympass.Repository\obj\Debug\netcoreapp2.2\Gympass.Repository.pdb
