@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Gympass\\test\\Gympass.Test\\Gympass.Test.csproj": {}
+    "C:\\Projetos\\Gympass-test\\test\\Gympass.Test\\Gympass.Test.csproj": {}
   },
   "projects": {
-    "C:\\Gympass\\src\\Gympass.Domain\\Gympass.Domain.csproj": {
+    "C:\\Projetos\\Gympass-test\\src\\Gympass.Domain\\Gympass.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Gympass\\src\\Gympass.Domain\\Gympass.Domain.csproj",
+        "projectUniqueName": "C:\\Projetos\\Gympass-test\\src\\Gympass.Domain\\Gympass.Domain.csproj",
         "projectName": "Gympass.Domain",
-        "projectPath": "C:\\Gympass\\src\\Gympass.Domain\\Gympass.Domain.csproj",
+        "projectPath": "C:\\Projetos\\Gympass-test\\src\\Gympass.Domain\\Gympass.Domain.csproj",
         "packagesPath": "C:\\Users\\Edwin\\.nuget\\packages\\",
-        "outputPath": "C:\\Gympass\\src\\Gympass.Domain\\obj\\",
+        "outputPath": "C:\\Projetos\\Gympass-test\\src\\Gympass.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -56,14 +56,14 @@
         }
       }
     },
-    "C:\\Gympass\\test\\Gympass.Test\\Gympass.Test.csproj": {
+    "C:\\Projetos\\Gympass-test\\test\\Gympass.Test\\Gympass.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Gympass\\test\\Gympass.Test\\Gympass.Test.csproj",
+        "projectUniqueName": "C:\\Projetos\\Gympass-test\\test\\Gympass.Test\\Gympass.Test.csproj",
         "projectName": "Gympass.Test",
-        "projectPath": "C:\\Gympass\\test\\Gympass.Test\\Gympass.Test.csproj",
+        "projectPath": "C:\\Projetos\\Gympass-test\\test\\Gympass.Test\\Gympass.Test.csproj",
         "packagesPath": "C:\\Users\\Edwin\\.nuget\\packages\\",
-        "outputPath": "C:\\Gympass\\test\\Gympass.Test\\obj\\",
+        "outputPath": "C:\\Projetos\\Gympass-test\\test\\Gympass.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -82,8 +82,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Gympass\\src\\Gympass.Domain\\Gympass.Domain.csproj": {
-                "projectPath": "C:\\Gympass\\src\\Gympass.Domain\\Gympass.Domain.csproj"
+              "C:\\Projetos\\Gympass-test\\src\\Gympass.Domain\\Gympass.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\Gympass-test\\src\\Gympass.Domain\\Gympass.Domain.csproj"
               }
             }
           }

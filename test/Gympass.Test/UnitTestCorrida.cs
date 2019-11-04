@@ -3,13 +3,15 @@ using Gympass.Domain.Interfaces;
 using Gympass.Domain.Services;
 using NSubstitute;
 using System.ComponentModel;
+using System.IO;
 using Xunit;
 
 namespace Gympass.Test
 {
     public class UnitTestCorrida
     {
-        private static string _pathLog = @"C:\\Gympass\\test\\Gympass.Test\\Log\\LogCorrida.txt";
+        //private static string _pathLog = @"C:\\Gympass\\test\\Gympass.Test\\Log\\LogCorrida.txt";
+        string _pathLog = $@"{Directory.GetCurrentDirectory()}\\..\\..\\..\\..\\..\\LogCorrida.txt";
 
         private static IReadLog _ReadLog;
         private static ICorridaServices _corridaServices;

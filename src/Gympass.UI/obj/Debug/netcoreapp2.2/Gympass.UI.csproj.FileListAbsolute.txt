@@ -12,3 +12,17 @@ C:\Gympass\src\Gympass.UI\obj\Debug\netcoreapp2.2\Gympass.UI.AssemblyInfo.cs
 C:\Gympass\src\Gympass.UI\obj\Debug\netcoreapp2.2\Gympass.UI.csproj.CopyComplete
 C:\Gympass\src\Gympass.UI\obj\Debug\netcoreapp2.2\Gympass.UI.dll
 C:\Gympass\src\Gympass.UI\obj\Debug\netcoreapp2.2\Gympass.UI.pdb
+C:\Projetos\Gympass-test\src\Gympass.UI\bin\Debug\netcoreapp2.2\Gympass.UI.deps.json
+C:\Projetos\Gympass-test\src\Gympass.UI\bin\Debug\netcoreapp2.2\Gympass.UI.runtimeconfig.json
+C:\Projetos\Gympass-test\src\Gympass.UI\bin\Debug\netcoreapp2.2\Gympass.UI.runtimeconfig.dev.json
+C:\Projetos\Gympass-test\src\Gympass.UI\bin\Debug\netcoreapp2.2\Gympass.UI.dll
+C:\Projetos\Gympass-test\src\Gympass.UI\bin\Debug\netcoreapp2.2\Gympass.UI.pdb
+C:\Projetos\Gympass-test\src\Gympass.UI\bin\Debug\netcoreapp2.2\Gympass.Domain.dll
+C:\Projetos\Gympass-test\src\Gympass.UI\bin\Debug\netcoreapp2.2\Gympass.Domain.pdb
+C:\Projetos\Gympass-test\src\Gympass.UI\obj\Debug\netcoreapp2.2\Gympass.UI.csprojAssemblyReference.cache
+C:\Projetos\Gympass-test\src\Gympass.UI\obj\Debug\netcoreapp2.2\Gympass.UI.csproj.CoreCompileInputs.cache
+C:\Projetos\Gympass-test\src\Gympass.UI\obj\Debug\netcoreapp2.2\Gympass.UI.AssemblyInfoInputs.cache
+C:\Projetos\Gympass-test\src\Gympass.UI\obj\Debug\netcoreapp2.2\Gympass.UI.AssemblyInfo.cs
+C:\Projetos\Gympass-test\src\Gympass.UI\obj\Debug\netcoreapp2.2\Gympass.UI.csproj.CopyComplete
+C:\Projetos\Gympass-test\src\Gympass.UI\obj\Debug\netcoreapp2.2\Gympass.UI.dll
+C:\Projetos\Gympass-test\src\Gympass.UI\obj\Debug\netcoreapp2.2\Gympass.UI.pdb

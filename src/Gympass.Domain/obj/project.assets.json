@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Gympass\\src\\Gympass.Domain\\Gympass.Domain.csproj",
+      "projectUniqueName": "C:\\Projetos\\Gympass-test\\src\\Gympass.Domain\\Gympass.Domain.csproj",
       "projectName": "Gympass.Domain",
-      "projectPath": "C:\\Gympass\\src\\Gympass.Domain\\Gympass.Domain.csproj",
+      "projectPath": "C:\\Projetos\\Gympass-test\\src\\Gympass.Domain\\Gympass.Domain.csproj",
       "packagesPath": "C:\\Users\\Edwin\\.nuget\\packages\\",
-      "outputPath": "C:\\Gympass\\src\\Gympass.Domain\\obj\\",
+      "outputPath": "C:\\Projetos\\Gympass-test\\src\\Gympass.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

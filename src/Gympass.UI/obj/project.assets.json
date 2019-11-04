@@ -708,11 +708,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Gympass\\src\\Gympass.UI\\Gympass.UI.csproj",
+      "projectUniqueName": "C:\\Projetos\\Gympass-test\\src\\Gympass.UI\\Gympass.UI.csproj",
       "projectName": "Gympass.UI",
-      "projectPath": "C:\\Gympass\\src\\Gympass.UI\\Gympass.UI.csproj",
+      "projectPath": "C:\\Projetos\\Gympass-test\\src\\Gympass.UI\\Gympass.UI.csproj",
       "packagesPath": "C:\\Users\\Edwin\\.nuget\\packages\\",
-      "outputPath": "C:\\Gympass\\src\\Gympass.UI\\obj\\",
+      "outputPath": "C:\\Projetos\\Gympass-test\\src\\Gympass.UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -731,8 +731,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Gympass\\src\\Gympass.Domain\\Gympass.Domain.csproj": {
-              "projectPath": "C:\\Gympass\\src\\Gympass.Domain\\Gympass.Domain.csproj"
+            "C:\\Projetos\\Gympass-test\\src\\Gympass.Domain\\Gympass.Domain.csproj": {
+              "projectPath": "C:\\Projetos\\Gympass-test\\src\\Gympass.Domain\\Gympass.Domain.csproj"
             }
           }
         }

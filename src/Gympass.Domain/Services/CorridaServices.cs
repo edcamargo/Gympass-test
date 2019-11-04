@@ -11,7 +11,7 @@ namespace Gympass.Domain.Services
     {
         private string[] _arrayLogCorrida;
         private int count = 1;
-        private readonly StringBuilder strGridChedada = new StringBuilder();
+        private readonly StringBuilder strGridChegada = new StringBuilder();
 
         /// <summary>
         /// Lista o resumo final da prova
@@ -20,18 +20,17 @@ namespace Gympass.Domain.Services
         public List<LogCorrida> ResultadoCorrida(string[] _arrayLog)
         {
             _arrayLogCorrida = _arrayLog;
-            var list = ParseLog();
+            var list = ParserLog().OrderBy(x => x.TempoVolta);
 
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("   Resultado da Corrida: ");
             Console.ForegroundColor = ConsoleColor.DarkGreen;
 
-
             List<LogCorrida> ListaResultCorrida = new List<LogCorrida>();
 
-            foreach (var item in list.Where(x => x.NumVolta > 3).OrderBy(x => x.TempoVolta))
+            foreach (var item in list.Where(x => x.NumVolta > 3))
             {
-                var listNomePiloto = list.Where(x => x.Piloto.Numero == item.Piloto.Numero).Select(x => x.Piloto.Nome).ToList().Distinct();
+                var listNomePiloto = list.Where(x => x.Piloto.Numero == item.Piloto.Numero).Select(x => x.Piloto.Nome).Distinct();
 
                 LogCorrida logCorrida = new LogCorrida();
 
@@ -45,14 +44,14 @@ namespace Gympass.Domain.Services
                 logCorrida.TempoVolta = item.TempoVolta;
                 logCorrida.VelocidadeMediaVolta = item.VelocidadeMediaVolta;
 
-                strGridChedada.Clear();
-                strGridChedada.AppendLine("   Posição Chegada: " + count++ +
+                strGridChegada.Clear();
+                strGridChegada.AppendLine("   Posição Chegada: " + count++ +
                                           " | Código Piloto: " + item.Piloto.Numero +
                                           " | Nome Piloto: " + listNomePiloto.First() +
                                           " | Qtde Voltas Completadas: " + item.NumVolta +
                                           " | Tempo Total de Prova: " + item.TempoVolta); ; ;
 
-                Console.WriteLine(strGridChedada);
+                Console.WriteLine(strGridChegada);
 
                 ListaResultCorrida.Add(logCorrida);
 
@@ -66,7 +65,7 @@ namespace Gympass.Domain.Services
         /// </summary>
         public void MelhorVoltaCorrida()
         {
-            var list = ParseLog();
+            var list = ParserLog();
             count = 1;
 
             Console.ForegroundColor = ConsoleColor.Magenta;
@@ -76,12 +75,12 @@ namespace Gympass.Domain.Services
             foreach (var item in list.GroupBy(x => x.Piloto.Numero).Select(x => x.First()).Take(1))
             {
                 var listVolta = list.Where(x => x.Piloto.Numero == item.Piloto.Numero).Min(x => x.TempoVolta);
-                strGridChedada.Clear();
-                strGridChedada.AppendLine("   Código Piloto: " + item.Piloto.Numero +
+                strGridChegada.Clear();
+                strGridChegada.AppendLine("   Código Piloto: " + item.Piloto.Numero +
                                           " | Nome Piloto: " + item.Piloto.Nome +
                                           " | Tempo de Volta: " + listVolta);
 
-                Console.WriteLine(strGridChedada);
+                Console.WriteLine(strGridChegada);
             }
         }
 
@@ -90,7 +89,7 @@ namespace Gympass.Domain.Services
         /// </summary>
         public void MelhorVoltaCadaPiloto()
         {
-            var list = ParseLog();
+            var list = ParserLog();
             count = 1;
 
             Console.ForegroundColor = ConsoleColor.Magenta;
@@ -100,12 +99,12 @@ namespace Gympass.Domain.Services
             foreach (var item in list.GroupBy(x => x.Piloto.Numero).Select(x => x.First()))
             {
                 var listVolta = list.Where(x => x.Piloto.Numero == item.Piloto.Numero).OrderBy(x => x.TempoVolta).Min(x => x.TempoVolta);
-                strGridChedada.Clear();
-                strGridChedada.AppendLine("   Código Piloto: " + item.Piloto.Numero +
+                strGridChegada.Clear();
+                strGridChegada.AppendLine("   Código Piloto: " + item.Piloto.Numero +
                                           " | Nome Piloto: " + item.Piloto.Nome +
                                           " | Tempo de Volta: " + listVolta);
 
-                Console.WriteLine(strGridChedada);
+                Console.WriteLine(strGridChegada);
             }
         }
 
@@ -114,7 +113,7 @@ namespace Gympass.Domain.Services
         /// </summary>
         public void VelocidadeMediaCadaPiloto()
         {
-            var list = ParseLog();
+            var list = ParserLog();
             count = 1;
 
             Console.ForegroundColor = ConsoleColor.Magenta;
@@ -124,21 +123,21 @@ namespace Gympass.Domain.Services
             foreach (var item in list.GroupBy(x => x.Piloto.Numero).Select(x => x.First()))
             {
                 var listVolta = list.Where(x => x.Piloto.Numero == item.Piloto.Numero).Sum(x => x.VelocidadeMediaVolta) / list.Count(x => x.Piloto.Numero == item.Piloto.Numero);
-                strGridChedada.Clear();
-                strGridChedada.AppendLine("   Código Piloto: " + item.Piloto.Numero +
+                strGridChegada.Clear();
+                strGridChegada.AppendLine("   Código Piloto: " + item.Piloto.Numero +
                                           " | Nome Piloto: " + item.Piloto.Nome +
                                           " | Velocidade Média: " + listVolta);
 
-                Console.WriteLine(strGridChedada);
+                Console.WriteLine(strGridChegada);
             }
         }
 
         /// <summary>
-        /// Realiza o Parse do Arquivo txt para um List de Log Corrida
+        /// Realiza o Parser do Arquivo txt para um List de Log Corrida
         /// </summary>
         /// <param name="_arrayLog"></param>
         /// <returns></returns>
-        private List<LogCorrida> ParseLog()
+        private List<LogCorrida> ParserLog()
         {
             List<LogCorrida> lst = new List<LogCorrida>();
             foreach (string line in _arrayLogCorrida.Where(x => !x.Contains("Hora")).ToList())

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Gympass\\src\\Gympass.Repository\\Gympass.Repository.csproj": {}
+    "C:\\Projetos\\Gympass-test\\src\\Gympass.Repository\\Gympass.Repository.csproj": {}
   },
   "projects": {
-    "C:\\Gympass\\src\\Gympass.Repository\\Gympass.Repository.csproj": {
+    "C:\\Projetos\\Gympass-test\\src\\Gympass.Repository\\Gympass.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Gympass\\src\\Gympass.Repository\\Gympass.Repository.csproj",
+        "projectUniqueName": "C:\\Projetos\\Gympass-test\\src\\Gympass.Repository\\Gympass.Repository.csproj",
         "projectName": "Gympass.Repository",
-        "projectPath": "C:\\Gympass\\src\\Gympass.Repository\\Gympass.Repository.csproj",
+        "projectPath": "C:\\Projetos\\Gympass-test\\src\\Gympass.Repository\\Gympass.Repository.csproj",
         "packagesPath": "C:\\Users\\Edwin\\.nuget\\packages\\",
-        "outputPath": "C:\\Gympass\\src\\Gympass.Repository\\obj\\",
+        "outputPath": "C:\\Projetos\\Gympass-test\\src\\Gympass.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
