@@ -1,0 +1,9 @@
+C:\Gympass\src\Gympass.Domain\bin\Debug\netcoreapp2.2\Gympass.Domain.deps.json
+C:\Gympass\src\Gympass.Domain\bin\Debug\netcoreapp2.2\Gympass.Domain.dll
+C:\Gympass\src\Gympass.Domain\bin\Debug\netcoreapp2.2\Gympass.Domain.pdb
+C:\Gympass\src\Gympass.Domain\obj\Debug\netcoreapp2.2\Gympass.Domain.csproj.CoreCompileInputs.cache
+C:\Gympass\src\Gympass.Domain\obj\Debug\netcoreapp2.2\Gympass.Domain.AssemblyInfoInputs.cache
+C:\Gympass\src\Gympass.Domain\obj\Debug\netcoreapp2.2\Gympass.Domain.AssemblyInfo.cs
+C:\Gympass\src\Gympass.Domain\obj\Debug\netcoreapp2.2\Gympass.Domain.dll
+C:\Gympass\src\Gympass.Domain\obj\Debug\netcoreapp2.2\Gympass.Domain.pdb
+C:\Gympass\src\Gympass.Domain\obj\Debug\netcoreapp2.2\Gympass.Domain.csprojAssemblyReference.cache

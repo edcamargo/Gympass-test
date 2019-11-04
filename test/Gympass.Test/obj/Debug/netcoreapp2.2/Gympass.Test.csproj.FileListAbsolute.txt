@@ -1,0 +1,17 @@
+C:\Gympass\test\Gympass.Test\obj\Debug\netcoreapp2.2\Gympass.Test.csprojAssemblyReference.cache
+C:\Gympass\test\Gympass.Test\obj\Debug\netcoreapp2.2\Gympass.Test.csproj.CoreCompileInputs.cache
+C:\Gympass\test\Gympass.Test\obj\Debug\netcoreapp2.2\Gympass.Test.AssemblyInfoInputs.cache
+C:\Gympass\test\Gympass.Test\obj\Debug\netcoreapp2.2\Gympass.Test.AssemblyInfo.cs
+C:\Gympass\test\Gympass.Test\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Gympass\test\Gympass.Test\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Gympass\test\Gympass.Test\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Gympass\test\Gympass.Test\bin\Debug\netcoreapp2.2\Gympass.Test.deps.json
+C:\Gympass\test\Gympass.Test\bin\Debug\netcoreapp2.2\Gympass.Test.runtimeconfig.json
+C:\Gympass\test\Gympass.Test\bin\Debug\netcoreapp2.2\Gympass.Test.runtimeconfig.dev.json
+C:\Gympass\test\Gympass.Test\bin\Debug\netcoreapp2.2\Gympass.Test.dll
+C:\Gympass\test\Gympass.Test\bin\Debug\netcoreapp2.2\Gympass.Test.pdb
+C:\Gympass\test\Gympass.Test\bin\Debug\netcoreapp2.2\Gympass.Domain.dll
+C:\Gympass\test\Gympass.Test\bin\Debug\netcoreapp2.2\Gympass.Domain.pdb
+C:\Gympass\test\Gympass.Test\obj\Debug\netcoreapp2.2\Gympass.Test.csproj.CopyComplete
+C:\Gympass\test\Gympass.Test\obj\Debug\netcoreapp2.2\Gympass.Test.dll
+C:\Gympass\test\Gympass.Test\obj\Debug\netcoreapp2.2\Gympass.Test.pdb

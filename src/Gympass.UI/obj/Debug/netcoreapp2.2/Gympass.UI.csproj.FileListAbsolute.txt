@@ -1,0 +1,14 @@
+C:\Gympass\src\Gympass.UI\bin\Debug\netcoreapp2.2\Gympass.UI.deps.json
+C:\Gympass\src\Gympass.UI\bin\Debug\netcoreapp2.2\Gympass.UI.runtimeconfig.json
+C:\Gympass\src\Gympass.UI\bin\Debug\netcoreapp2.2\Gympass.UI.runtimeconfig.dev.json
+C:\Gympass\src\Gympass.UI\bin\Debug\netcoreapp2.2\Gympass.UI.dll
+C:\Gympass\src\Gympass.UI\bin\Debug\netcoreapp2.2\Gympass.UI.pdb
+C:\Gympass\src\Gympass.UI\bin\Debug\netcoreapp2.2\Gympass.Domain.dll
+C:\Gympass\src\Gympass.UI\bin\Debug\netcoreapp2.2\Gympass.Domain.pdb
+C:\Gympass\src\Gympass.UI\obj\Debug\netcoreapp2.2\Gympass.UI.csprojAssemblyReference.cache
+C:\Gympass\src\Gympass.UI\obj\Debug\netcoreapp2.2\Gympass.UI.csproj.CoreCompileInputs.cache
+C:\Gympass\src\Gympass.UI\obj\Debug\netcoreapp2.2\Gympass.UI.AssemblyInfoInputs.cache
+C:\Gympass\src\Gympass.UI\obj\Debug\netcoreapp2.2\Gympass.UI.AssemblyInfo.cs
+C:\Gympass\src\Gympass.UI\obj\Debug\netcoreapp2.2\Gympass.UI.csproj.CopyComplete
+C:\Gympass\src\Gympass.UI\obj\Debug\netcoreapp2.2\Gympass.UI.dll
+C:\Gympass\src\Gympass.UI\obj\Debug\netcoreapp2.2\Gympass.UI.pdb

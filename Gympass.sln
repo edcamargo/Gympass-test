@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{725FD328-2F38-4383-8B05-0C97F1D90CC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0E195977-E47B-4E16-AF0F-9A3A20101CAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gympass.Domain", "src\Gympass.Domain\Gympass.Domain.csproj", "{29896D51-6804-4887-9EAF-593801010DD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gympass.Repository", "src\Gympass.Repository\Gympass.Repository.csproj", "{BAD22A93-F165-4BC3-B6FB-6B11175A0198}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gympass.Test", "test\Gympass.Test\Gympass.Test.csproj", "{31885152-2275-4880-9846-8D90DA524EA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gympass.UI", "src\Gympass.UI\Gympass.UI.csproj", "{BD23B31F-02D8-4982-8930-F7F485656157}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29896D51-6804-4887-9EAF-593801010DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29896D51-6804-4887-9EAF-593801010DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29896D51-6804-4887-9EAF-593801010DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29896D51-6804-4887-9EAF-593801010DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD22A93-F165-4BC3-B6FB-6B11175A0198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD22A93-F165-4BC3-B6FB-6B11175A0198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD22A93-F165-4BC3-B6FB-6B11175A0198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD22A93-F165-4BC3-B6FB-6B11175A0198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31885152-2275-4880-9846-8D90DA524EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31885152-2275-4880-9846-8D90DA524EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31885152-2275-4880-9846-8D90DA524EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31885152-2275-4880-9846-8D90DA524EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD23B31F-02D8-4982-8930-F7F485656157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD23B31F-02D8-4982-8930-F7F485656157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD23B31F-02D8-4982-8930-F7F485656157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD23B31F-02D8-4982-8930-F7F485656157}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29896D51-6804-4887-9EAF-593801010DD4} = {725FD328-2F38-4383-8B05-0C97F1D90CC2}
+		{BAD22A93-F165-4BC3-B6FB-6B11175A0198} = {725FD328-2F38-4383-8B05-0C97F1D90CC2}
+		{31885152-2275-4880-9846-8D90DA524EA4} = {0E195977-E47B-4E16-AF0F-9A3A20101CAE}
+		{BD23B31F-02D8-4982-8930-F7F485656157} = {725FD328-2F38-4383-8B05-0C97F1D90CC2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B39634FA-9AD7-4500-A2C5-8461FEF24C85}
+	EndGlobalSection
+EndGlobal
